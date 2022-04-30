@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Skill;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -33,7 +34,10 @@ class HomeController extends Controller
 
     public function skills()
     {
-        return view('skills');
+        $skills = Skill::all();
+        return view('skills', [
+            'skills' => $skills
+        ]);
     }
 
     public function projects()

@@ -50,200 +50,24 @@
       }
   </style>
 
-  <section class="body" style="height: fit-content; padding: 5rem 10rem;">
-      <div class="container">
-          <h2 class="text-center mb-5">Web Developer</h2>
-          <div class="row justify-content-sm-center justify-content-evenly">
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-html.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">HTML</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-css.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">CSS</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-bootstrap.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">BOOTSTRAP</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-javascript.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">JAVASCRIPT</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-php.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">PHP</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-laravel.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">LARAVEL</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-mysql.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">MYSQL</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-nodejs.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">NODEJS</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-vscode.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">VSCODE</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-heroku.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">HEROKU</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <h2 class="text-center mb-5" style="margin-top: 8rem;">Mobile Developer</h2>
-          <div class="row justify-content-center">
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-flutter.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">Flutter</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-android-studio.jpg" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">ANDROID STUDIO</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <h2 class="text-center mb-5" style="margin-top: 8rem;">UI UX Designer</h2>
-          <div class="row justify-content-center">
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-figma.jpg" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">FIGMA</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <h2 class="text-center mb-5" style="margin-top: 8rem;">TOOLS</h2>
-          <div class="row justify-content-center">
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-git.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">GIT</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col col-6 col-sm-4 col-lg-3 mb-3">
-                  <div class="card w-100 h-100">
-                      <div class="card-body">
-                          <div class="image text-center">
-                              <img class="rounded" src="image/static/skill-github.png" alt="" width="85%">
-                          </div>
-                          <div class="deskripsi">
-                              <div class="text-center" style="font-weight: 700; font-size: 2vw;">GITHUB</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+    <section class="body" style="height: fit-content; padding: 5rem 10rem;">
+        <div class="container">
+            <div class="row">
+                @foreach ($skills as $skill)
+                <div class="col col-6 col-sm-4 col-lg-3 mb-3">
+                    <div class="card w-100 h-100">
+                        <div class="card-body">
+                            <div class="image text-center">
+                                <img class="rounded" src="{{ $skill->icon }}" alt="" width="85%">
+                            </div>
+                            <div class="deskripsi">
+                                <div class="text-center" style="font-weight: 700; font-size: 2vw;">{{ $skill->name }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
       </div>
   </section>
 @endsection
