@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +19,9 @@ Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/skills', [HomeController::class, 'skills'])->name('skills');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
 
-Auth::routes();
+Auth::routes([
+  'register' => false,
+  'reset' => false,
+]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
