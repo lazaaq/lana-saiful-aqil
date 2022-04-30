@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use App\Models\Skill;
 use Illuminate\Http\Request;
 
@@ -32,6 +33,9 @@ class HomeController extends Controller
 
     public function projects()
     {
-        return view('projects');
+        $projects = Project::all();
+        return view('projects', [
+            'projects' => $projects
+        ]);
     }
 }
