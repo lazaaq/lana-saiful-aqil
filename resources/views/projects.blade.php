@@ -15,7 +15,7 @@
   </header>
   <style>
       header {
-          background-image: url('image/static/hero-home.jpg');
+          background-image: url('image/static/hero.jpg');
           background-repeat: no-repeat;
           background-size: cover;
           background-attachment: fixed;
